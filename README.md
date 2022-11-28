@@ -8,15 +8,17 @@ REST API сервер для учета статистики
 $ yarn add
 ```
 
-## Для запуска потребуется локально установить postgres
+# Для запуска потребуется локально установить postgres
 
-## Запуск приложения
+Необходимо создать файл _.[development | production].env_ на базе _.example.env_
+
+## Запуск приложения в dev режиме
 
 ```bash
-# development
-$ yarn start
 
 # watch mode
 $ yarn start:dev
 
 ```
+
+## Swagger доступен по _/api/docs_
